@@ -19,7 +19,8 @@
  * redefine.
  *
  * This lexer accepts words that are consecutive printable bytes ending with
- * a byte in the space category.
+ * a byte in the space category. A word needs to have more lowercase letters
+ * than uppercase.
 */
 
 int main(int argc, char* argv[])
